@@ -1,0 +1,382 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "description": "Conversational AI model by OpenAI for writing, analysis, brainstorming, and complex task solving.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "url": "https://chatgpt.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "featured": true
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "description": "Anthropic's safety-focused AI assistant built for nuanced reasoning, writing, coding, and document analysis.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "url": "https://claude.ai",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Anthropic_logo.svg",
+    "featured": true
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "description": "State-of-the-art text-to-image generator renowned for photorealism, artistic styles, and design aesthetics.",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "url": "https://www.midjourney.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png",
+    "featured": true
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "description": "AI pair programmer directly in your code editor that suggests whole lines or complete functions.",
+    "category": "Coding",
+    "pricing": "Paid",
+    "url": "https://github.com/features/copilot",
+    "logo": "https://github.githubassets.com/images/modules/site/copilot/copilot.svg",
+    "featured": true
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "description": "AI-first code editor built on VS Code with deeply integrated repo-wide autocomplete, chat, and editing.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "url": "https://www.cursor.com",
+    "logo": "https://www.cursor.com/assets/images/logo.svg",
+    "featured": true
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity AI",
+    "description": "AI conversational search engine that delivers concise answers backed by cited real-time web sources.",
+    "category": "Research",
+    "pricing": "Freemium",
+    "url": "https://www.perplexity.ai",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Perplexity_AI_logo.svg",
+    "featured": true
+  },
+  {
+    "id": "runway-gen3",
+    "name": "Runway Gen-3",
+    "description": "Pioneering generative video model for generating cinematic video clips from text prompts or images.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "url": "https://runwayml.com",
+    "logo": "https://runwayml.com/favicon.ico",
+    "featured": true
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "description": "Ultra-realistic AI voice cloning, speech synthesis, and multilingual text-to-speech engine.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "url": "https://elevenlabs.io",
+    "logo": "https://elevenlabs.io/favicon.ico",
+    "featured": true
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "description": "Generate full, studio-quality songs with vocals, instruments, and lyrics across any genre from simple prompts.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "url": "https://suno.com",
+    "logo": "https://suno.com/favicon.ico",
+    "featured": true
+  },
+  {
+    "id": "v0-vercel",
+    "name": "v0 by Vercel",
+    "description": "Generative user interface system that turns natural language descriptions into production-ready React and Tailwind code.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "url": "https://v0.dev",
+    "logo": "https://v0.dev/favicon.ico",
+    "featured": true
+  },
+  {
+    "id": "huggingface",
+    "name": "Hugging Face",
+    "description": "The open-source collaboration hub and model registry for AI researchers and developers worldwide.",
+    "category": "Research",
+    "pricing": "Free",
+    "url": "https://huggingface.co",
+    "logo": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "featured": true
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "description": "Connected workspace assistant that drafts documents, summarizes meeting notes, and searches team wikis.",
+    "category": "Productivity",
+    "pricing": "Paid",
+    "url": "https://www.notion.so/product/ai",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "featured": false
+  },
+  {
+    "id": "canva-magic",
+    "name": "Canva Magic Studio",
+    "description": "All-in-one suite of AI design tools for background removal, text-to-graphics, and instant presentations.",
+    "category": "Image Generation",
+    "pricing": "Freemium",
+    "url": "https://www.canva.com/magic-studio/",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg",
+    "featured": false
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL",
+    "description": "High-accuracy neural machine translation and writing improvement tool supporting dozens of global languages.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "url": "https://www.deepl.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/0f/DeepL_Logo.svg",
+    "featured": false
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "description": "AI communication assistant providing grammar checks, tone adjustment, and context-aware sentence rewrites.",
+    "category": "Writing",
+    "pricing": "Freemium",
+    "url": "https://www.grammarly.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Grammarly_logo.svg",
+    "featured": false
+  },
+  {
+    "id": "descript",
+    "name": "Descript",
+    "description": "Video and podcast editor that lets creators edit audio/video media simply by editing a text transcript.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "url": "https://www.descript.com",
+    "logo": "https://www.descript.com/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "description": "AI video generation platform that creates lifelike avatar videos in 130+ languages from text scripts.",
+    "category": "Video",
+    "pricing": "Paid",
+    "url": "https://www.synthesia.io",
+    "logo": "https://www.synthesia.io/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "luma-dream-machine",
+    "name": "Luma Dream Machine",
+    "description": "High-efficiency generative video model capable of generating smooth 5-second realistic scenes quickly.",
+    "category": "Video",
+    "pricing": "Freemium",
+    "url": "https://lumalabs.ai/dream-machine",
+    "logo": "https://lumalabs.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "replit-agent",
+    "name": "Replit Agent",
+    "description": "Autonomous software development agent that builds, tests, and deploys full-stack apps from natural language.",
+    "category": "Coding",
+    "pricing": "Freemium",
+    "url": "https://replit.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/7/78/Replit_Logo.svg",
+    "featured": false
+  },
+  {
+    "id": "phind",
+    "name": "Phind",
+    "description": "Intelligent search engine optimized specifically for programmers with instant technical answers and code samples.",
+    "category": "Coding",
+    "pricing": "Free",
+    "url": "https://www.phind.com",
+    "logo": "https://www.phind.com/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "description": "Open-weights diffusion model by Stability AI for generating and editing diverse artistic and realistic images.",
+    "category": "Image Generation",
+    "pricing": "Free",
+    "url": "https://stability.ai",
+    "logo": "https://stability.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo.ai",
+    "description": "Creative production platform with fine-tuned models for game assets, digital concept art, and product mockups.",
+    "category": "Image Generation",
+    "pricing": "Freemium",
+    "url": "https://leonardo.ai",
+    "logo": "https://leonardo.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "magnific-ai",
+    "name": "Magnific AI",
+    "description": "High-end generative AI image upscaler and enhancer capable of hallucinating microscopic detail into photos.",
+    "category": "Image Generation",
+    "pricing": "Paid",
+    "url": "https://magnific.ai",
+    "logo": "https://magnific.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "murf-ai",
+    "name": "Murf.ai",
+    "description": "Studio-quality AI voiceover generator with 120+ natural sounding voices for podcasts, presentations, and ads.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "url": "https://murf.ai",
+    "logo": "https://murf.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper by OpenAI",
+    "description": "General-purpose speech recognition model trained on 680,000 hours of multilingual audio data.",
+    "category": "Audio",
+    "pricing": "Free",
+    "url": "https://openai.com/research/whisper",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "featured": false
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "description": "Generative music app that creates full fidelity tracks with emotive vocal harmonies and dynamic composition.",
+    "category": "Audio",
+    "pricing": "Freemium",
+    "url": "https://www.udio.com",
+    "logo": "https://www.udio.com/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "otter-ai",
+    "name": "Otter.ai",
+    "description": "Automated meeting assistant that transcribes speech in real time, extracts action items, and generates summaries.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "url": "https://otter.ai",
+    "logo": "https://otter.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "raycast-ai",
+    "name": "Raycast AI",
+    "description": "Extendable launcher for macOS that brings LLM queries, custom prompts, and code explanations to hotkeys.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "url": "https://www.raycast.com",
+    "logo": "https://www.raycast.com/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "gamma-app",
+    "name": "Gamma",
+    "description": "A new medium for presenting ideas, powered by AI to create stunning presentations, documents, and webpages.",
+    "category": "Productivity",
+    "pricing": "Freemium",
+    "url": "https://gamma.app",
+    "logo": "https://gamma.app/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "elicit",
+    "name": "Elicit",
+    "description": "AI research assistant using language models to automate literature reviews and synthesize academic papers.",
+    "category": "Research",
+    "pricing": "Freemium",
+    "url": "https://elicit.com",
+    "logo": "https://elicit.com/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "consensus",
+    "name": "Consensus",
+    "description": "Search engine that extracts scientific research claims directly from peer-reviewed literature with consensus meters.",
+    "category": "Research",
+    "pricing": "Freemium",
+    "url": "https://consensus.app",
+    "logo": "https://consensus.app/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "scite-ai",
+    "name": "Scite.ai",
+    "description": "Citation analysis tool that evaluates whether scientific articles support, mention, or contrast citing studies.",
+    "category": "Research",
+    "pricing": "Paid",
+    "url": "https://scite.ai",
+    "logo": "https://scite.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "julius-ai",
+    "name": "Julius AI",
+    "description": "Intelligent data analyst that interprets spreadsheets, generates charts, builds forecasts, and runs statistics.",
+    "category": "Business",
+    "pricing": "Freemium",
+    "url": "https://julius.ai",
+    "logo": "https://julius.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "zapier-central",
+    "name": "Zapier Central",
+    "description": "Experimental AI workspace where users train custom AI bots to automate workflows across 6,000+ business apps.",
+    "category": "Business",
+    "pricing": "Freemium",
+    "url": "https://zapier.com/central",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/23/Zapier_logo.svg",
+    "featured": false
+  },
+  {
+    "id": "jasper-ai",
+    "name": "Jasper AI",
+    "description": "Enterprise marketing copilot designed to scale on-brand content across blog posts, ad copy, and social media campaigns.",
+    "category": "Business",
+    "pricing": "Paid",
+    "url": "https://www.jasper.ai",
+    "logo": "https://www.jasper.ai/favicon.ico",
+    "featured": false
+  },
+  {
+    "id": "khanmigo",
+    "name": "Khanmigo",
+    "description": "Khan Academy's AI-powered personal tutor that guides students through math and science without giving away answers.",
+    "category": "Education",
+    "pricing": "Paid",
+    "url": "https://www.khanacademy.org/khanmigo",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Khan_Academy_logo.svg",
+    "featured": false
+  },
+  {
+    "id": "duolingo-max",
+    "name": "Duolingo Max",
+    "description": "AI language tutor tier offering interactive roleplay conversations and personalized 'Explain My Answer' breakdowns.",
+    "category": "Education",
+    "pricing": "Paid",
+    "url": "https://www.duolingo.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/1/15/Duolingo_logo.svg",
+    "featured": false
+  },
+  {
+    "id": "quizlet-qchat",
+    "name": "Quizlet Q-Chat",
+    "description": "AI conversational study coach trained on student flashcards and study sets using Socratic questioning.",
+    "category": "Education",
+    "pricing": "Freemium",
+    "url": "https://quizlet.com",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Quizlet_Logo.svg",
+    "featured": false
+  }
+]

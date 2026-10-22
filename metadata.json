@@ -1,0 +1,6 @@
+{
+  "name": "Aether AI — Minimalist AI Tools Directory",
+  "description": "Discover, search, and filter the best curated artificial intelligence tools across 9 categories. Fast, free, and lightweight.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
